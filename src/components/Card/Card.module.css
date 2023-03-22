@@ -1,0 +1,102 @@
+.cardContainer {
+  margin: 0 auto;
+}
+.cardList {
+  position: relative;
+  margin: 0 auto;
+  top: 100px;
+}
+
+.cardItem {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  padding: 28px 36px 36px 36px;
+  background-color: #5736a3;
+  width: 380px;
+  height: 460px;
+  border-radius: 20px;
+}
+.cardBg {
+  background-image: url(../../img/Rectangle.png);
+  width: 308px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.cardLogo {
+  background-image: url(../../img/Logo.png);
+  width: 76px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -16px;
+  top: -8px;
+}
+.cardAvatarLine {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 26px;
+}
+.cardAvatar {
+  display: inline-block;
+  background-image: url(../../img/Avatar.png);
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: 2;
+}
+.cardLine {
+  position: absolute;
+  width: 380px;
+  height: 8px;
+  left: -150px;
+  top: 36px;
+  z-index: 1;
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+.cardText {
+  color: #ebd8ff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.cardButton {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  background-color: #ebd8ff;
+  padding: 14px 28px;
+  border-radius: 10px;
+  width: 196px;
+  height: 50px;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardButtonActive {
+  background: #5cd3a8;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 10px;
+  width: 196px;
+  height: 50px;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  margin-top: 10px;
+}
